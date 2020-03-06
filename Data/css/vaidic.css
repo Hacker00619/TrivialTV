@@ -1,0 +1,36 @@
+nav .signin {
+  color: #fff;
+  float: right;
+  background-color: #e50914;
+  line-height: normal;
+  margin-top: 18px;
+  margin-right: 3%;
+  padding: 7px 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+}
+nav .login{
+     color: #fff;
+  float: left;
+  background-color: #e50914;
+  line-height: normal;
+  margin-top: 18px;
+  margin-right: 3%;
+  padding: 7px 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none
+}
+body {
+	background-image: url("img/trivial.jpg");
+	height:100%;
+	   width:100%;
+	background-position:center;
+        background-repeat:no-repeat;
+		background-attachment:fixed;
+       background-size:cover;
+}
+ 

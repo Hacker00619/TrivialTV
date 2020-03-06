@@ -1,0 +1,25 @@
+body{
+	background-image: url("img\trivial.jpg");
+	height:100%;
+    width:100%;
+	background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.newpassword{
+  color: #fff;
+  float: right;
+  line-height: normal;
+  margin-top: 300px;
+  margin-right: 36%;
+  margin-left:0;    
+  padding: 7px 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration:none;        ;
+}
+.head{
+  color: #e50914;
+}
