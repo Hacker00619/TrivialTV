@@ -41,10 +41,14 @@ if (isset($_POST['ln'])) {
         $femail = $reguser['email'];
         $fpass = base64_decode($reguser['pass']);
     }
-     if ($emailid == $femail && $pasw == $fpass) {
-      echo 'Success';
+     if (empty($emailid) || empty($pasw)) {
+        echo 'Empty';
+      }
+     elseif ($emailid == $femail && $pasw == $fpass){
+       echo 'Success';
       header('Location: index.php');
-      } else {
+         
+     } else {
       echo 'Incorrect Email and password';
       }
 
